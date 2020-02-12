@@ -37,8 +37,8 @@ def polar2cart(r, rad):
 def chunks(l, n):
     return [l[i:i+n] for i in range(0, len(l), n)]
 
-# translates the barriers from the global map to the local so that the lines are with respect
-# to the car's x, y and heading --> carX, carY, carRad
+# translates the barriers from the local map to global and takes into account
+# the car's x, y and heading --> carX, carY, carRad
 def local2Global(carX, carY, carRad):
     adjX = middleMan[:, :, 0].flatten() + carX
     adjY = middleMan[:, :, 1].flatten() + carY
