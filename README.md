@@ -24,8 +24,9 @@ The initial side is at 90 degrees instead of 0 because the local plot arrow alwa
 In the before (top) image, heading is 0. In the after (bottom) image, the car has turned right (-90 degrees) and heading is now -90 degrees. The values in the barrier array change and are reflected in the local plot. The global plot reflects the change in heading. 
 
 Although they work, this simple example does not demonstrate change in vehicle position nor were adjustments to the obstacle positions made. Yeah.
-<br/>
 
+#### Before
 ![Before](https://github.com/WisconsinAutonomous/mapping/blob/master/Before.png)
+#### After
 ![After](https://github.com/WisconsinAutonomous/mapping/blob/master/After.png)
 
