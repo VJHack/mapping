@@ -4,7 +4,7 @@ Mapping obstacles (other cars) and barriers.
 
 ### Process
 1. Begins with array of sampleBarriers and sampleObs
-2. Immediate (surronding) arrays get plotted on local
+2. Immediate (surrounding) arrays get plotted on local
 3. Arrays get translated, accounting for car position and heading
 4. Translations and accumulated barrier array get plotted on global
 
