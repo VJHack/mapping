@@ -4,9 +4,15 @@ from matplotlib import collections as mc
 
 # ==================== Sample Data ====================== #
 
-sampleBarriers = np.array([[-10, -20, -10, 20], [-10, 20, 10, 20]], float)
+# 2D array of barriers; Format --> [x1, y1, x2, y2]
+sampleBarriers = np.array([[-20, 10, -20, -10], [-20, -10, 20, -10]], float)
+
+# 2D array of obstacles; Format -->  [x, y, r]
 sampleObs = np.array([[10, 0, 40], [20, 0, 80], [30, 0, 160]], float)
-sampleState = np.array([0, 0, 0])
+
+# Car position and heading array; Format --> x, y, angle(radians)
+# Note: 0 radians is directed upwards
+sampleState = np.array([0, 00, -np.pi/2])
 
 # ===================== Functions ======================= #
 
