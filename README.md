@@ -1,6 +1,6 @@
 # mapping
 
-Mapping obstacles (other cars) and barriers.
+Mapping obstacles and barriers.
 
 ### Process
 1. Begins with array of sampleBarriers and sampleObs
@@ -10,7 +10,7 @@ Mapping obstacles (other cars) and barriers.
 
 ### Data Recieved
 Barriers: 2D array with format [ [x1, y1, x2, y1], [x1, y1, x2, y1] ] <-- 2 line segments<br/>
-Obstacles: 2D array with format [ [x, y, r] , [x, y, r] ] <-- 2 obstacles, r = size<br/>
+Obstacles (other cars): 2D array with format [ [x, y, r] , [x, y, r] ] <-- 2 obstacles, r = size<br/>
 Vehicle state: 1D array with format [x, y, angle] <-- ANGLE EXPRESSED IN RADIANS<br/>
 
 ### Data Outputted
