@@ -3,10 +3,10 @@
 Mapping obstacles (other cars) and barriers.
 
 ## Process<br/>
-1. Begins with batch of sampleBarriers and sampleObs
-2. Immediate batches plotted on local
-3. Batches translated accounting for car position and heading
-4. Translations and accumulated barrier batches plotted on global
+1. Begins with array of sampleBarriers and sampleObs
+2. Immediate (surronding) arrays get plotted on local
+3. Arrays get translated, accounting for car position and heading
+4. Translations and accumulated barrier array get plotted on global
 <br/>
 
 ## Data Recieved<br/>
