@@ -12,7 +12,7 @@ sampleObs = np.array([[10, 0, 40], [20, 0, 80], [30, 0, 160]], float)
 
 # Car position and heading array; Format --> x, y, angle(radians)
 # Note: 0 radians is directed upwards
-sampleState = np.array([0, 00, -np.pi/2])
+sampleState = np.array([0, 0, -np.pi/2])
 
 # ===================== Functions ======================= #
 
